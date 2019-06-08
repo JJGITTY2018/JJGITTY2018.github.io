@@ -1,0 +1,160 @@
+/* Custom Class */
+.mainTitle {
+  text-align: center;
+}
+
+.ReduxIcon {
+  width: 99.8px;
+  height: 101px;
+}
+
+.projects_body{
+
+ 
+}
+
+
+
+.proj {
+  border-radius: 5px;
+  transition: 1s;
+  background-color: rgba(255, 255, 255, 0.37);
+  margin: 10px;
+  padding: 10px;
+}
+
+.proj:hover{
+  background-color: #0000000e;
+  opacity: .8;
+  transition: 1s;
+}
+
+
+.project {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+h3 {
+  color: white;
+}
+
+
+h5 {
+  color: white;
+}
+
+li {
+  color: white;
+}
+
+.midArrow {
+  position: relative;
+  left: 49%;
+  margin-left: 0px;
+  display: flex;
+  place-content: center;
+  place-items: center;
+  place-self: center;
+  top: -25px;
+  color: #ffffff;
+  font-size: 24px;
+  z-index: 99;
+  text-decoration: none;
+  width: 60px;
+  height: 60px;
+  background: #2964f1;
+  border-bottom: none !important;
+  text-align: center;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+  -moz-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+  -ms-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+  -o-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+  box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+}
+
+.midCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: center;
+  position: relative;
+}
+
+.projects {
+  width: 60%;
+  display: inline-block;
+  text-align: center;
+}
+
+
+#projectSection{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+
+
+#project_title {
+  /* margin-top: 2em; */
+  color: white;
+}
+
+#projectSection h1 {
+  font-size: 20px;
+  color: white;
+}
+
+.projects_body::before {
+  content: ' ';
+  position: absolute;
+  left: 0;
+  overflow: visible;
+  width: 100%;
+  height: 700px;
+  background: #d45b39;
+  z-index: -1;
+  -webkit-transform: skewY(3deg);
+  -moz-transform: skewY(3deg);
+  -ms-transform: skewY(3deg);
+  -o-transform: skewY(3deg);
+  transform: skewY(3deg);
+  background-color: #ca5433;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* background-image: url(../images/hero6.jpg) */
+}
+
+.row{
+  margin: 0px;
+}
+
+/* End of Custom Class */
+
+
+@media screen and (max-width: 768px) {
+  #projectSection {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .projects_body::before {
+
+    height: 50%;
+
+  }
+
+  .midArrow{
+    left: 43%;
+  }
+
+}
