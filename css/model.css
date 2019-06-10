@@ -135,6 +135,11 @@ clip-path: polygon(0 34%, 100% 0, 100% 100%, 0 100%);
  
 }
 
+.projectImages h4 {
+color: #336791;
+font-weight: bold;
+}
+
 .projectImages img:hover {
  filter: brightness(50%)
 }
