@@ -1,86 +1,162 @@
 /* The Modal (background) */
 
-
 .modal {
- display: none;
- /* Hidden by default */
- position: fixed;
- /* Stay in place */
- z-index: 104;
- /* Sit on top */
- left: 0;
- top: 0;
- width: 100%;
- /* Full width */
- height: 100%;
- /* Full height */
- overflow: auto;
- /* Enable scroll if needed */
- background-color: rgb(0, 0, 0);
- /* Fallback color */
- background-color: rgba(0, 0, 0, 0.4);
- /* Black w/ opacity */
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 104;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
 }
 
 /* Modal Content/Box */
+
 .modal-content {
- background-color: #fefefe;
- margin: 5% auto;
- /* 15% from the top and centered */
- /* padding: 20px; */
- /* border: 1px solid #888; */
- width: 80%;
- /* Could be more or less, depending on screen size */
+  background-color: #fefefe;
+  margin: 1% auto;
+  /* 15% from the top and centered */
+  padding: 15px;
+  border: 1px solid #888;
+  width: 85%;
+  /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button */
+
 .close {
- color: #aaa;
- float: right;
- font-size: 28px;
- font-weight: bold;
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
- color: black;
- text-decoration: none;
- cursor: pointer;
+.close:hover, .close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
-
-
-
 
 /* Modal Header */
+
 .modal-header {
- padding: 2px 16px;
- background-color: #764ABC;
- color: white;
+  /* padding: 2px 16px; */
+  background-color: #764ABC;
+  color: white;
+-webkit-clip-path: polygon(0 0, 100% 0, 100% 71%, 0% 100%);
+clip-path: polygon(0 0, 100% 0, 100% 71%, 0% 100%);
 }
+
+.modal-header .close{
+    float: right;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 1;
+    color: rgb(255, 248, 248);
+    text-shadow: 0 1px 0 #fff;
+    opacity: 0.8;
+    filter: alpha(opacity=20);
+    margin-top:0px;
+    position: relative;
+    top: -6px;
+}
+
 
 /* Modal Body */
+
 .modal-body {
- padding: 2px 10px;
+  padding: 2px 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
+
 
 /* Modal Footer */
+
 .modal-footer {
- padding: 2px 16px;
- background-color: #5cb85c;
- color: white;
+  /* padding: 2px 16px; */
+  background-color: #764ABC;
+  color: white;
+-webkit-clip-path: polygon(0 34%, 100% 0, 100% 100%, 0 100%);
+clip-path: polygon(0 34%, 100% 0, 100% 100%, 0 100%);
+}
+
+/* Add Animation */
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0
+  }
+  to {
+    top: 0;
+    opacity: 1
+  }
+}
+
+.modal-content .modal-header h1 {
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+.projectInfo li{
+  color: #8b969c;
+}
+
+.projectInfo_footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-self: center;
+
+}
+
+.projectImages {
+  justify-self: center;
+  justify-content: center;
+  text-align: center;
+   font-size: 10px;
+}
+
+.projectImages img {
+  max-height: 550px;
+  max-width: 300px;
+ 
+}
+
+.projectImages img:hover {
+ filter: brightness(50%)
 }
 
 
 
-/* Add Animation */
-@keyframes animatetop {
- from {
-  top: -300px;
-  opacity: 0
- }
+@media screen and (max-width :768px){
 
- to {
-  top: 0;
-  opacity: 1
- }
+  .modal-content {
+    text-align: justify;
+    background-color: #fefefe;
+    margin: 5% auto;
+    /* 15% from the top and centered */
+    padding: 0px;
+    border: 1px solid #888;
+    width: 95%;
+    /* Could be more or less, depending on screen size */
+  }
+
+
+.modal-body {
+  display: grid;
+  grid-template-columns: 1fr;
+}
 }
