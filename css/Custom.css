@@ -13,8 +13,6 @@
  
 }
 
-
-
 .proj {
   border-radius: 5px;
   transition: 1s;
@@ -127,7 +125,7 @@ li {
   -ms-transform: skewY(3deg);
   -o-transform: skewY(3deg);
   transform: skewY(3deg);
-  background-color: #ca5433;
+  background-color: #f83d09;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
