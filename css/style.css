@@ -795,6 +795,10 @@ input[type="text"], input[type="password"], input[type="email"], input[type="sea
   color: white;
 }
 
+.midArrow:focus {
+  color: white;
+}
+
 #fh5co-hero .fh5co-arrow i {
   display: table-cell;
   vertical-align: middle;
@@ -1059,7 +1063,7 @@ body.fh5co-mobile-menu-visible #fh5co-mobile-menu {
 }
 
 #fh5co-footer .fh5co-footer-heading {
-  font-size: 28px;
+  font-size: 30px;
   /* text-transform: uppercase; */
   /* letter-spacing: 3px; */
   color: rgb(0, 0, 0);

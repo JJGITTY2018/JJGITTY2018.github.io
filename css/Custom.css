@@ -144,7 +144,7 @@ li {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
-  margin:0px 10px 10px 0px;
+  margin: 0px 10px 10px 0px;
   /* padding:10px; */
 }
 
@@ -196,4 +196,16 @@ li {
   .midArrow {
     left: 43%;
   }
+}
+
+.fh5co-hero-intro h4 {
+  vertical-align: middle;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 3px;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
