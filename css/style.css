@@ -190,11 +190,11 @@ input[type="text"], input[type="password"], input[type="email"], input[type="sea
   color: rgba(255, 255, 255, 0.5);
 }
 
-#fh5co-quick-contacts a {
+/* #fh5co-quick-contacts a {
   font-size: 14px;
   padding: 20px 10px;
   color: white;
-}
+} */
 
 #fh5co-quick-contacts a>i {
   margin-right: 10px;
