@@ -54,33 +54,31 @@
   /* padding: 2px 16px; */
   background-color: #764ABC;
   color: white;
--webkit-clip-path: polygon(0 0, 100% 0, 100% 71%, 0% 100%);
-clip-path: polygon(0 0, 100% 0, 100% 71%, 0% 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 71%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 71%, 0% 100%);
 }
 
-.modal-header .close{
-    float: right;
-    font-size: 35px;
-    font-weight: bold;
-    line-height: 1;
-    color: rgb(255, 248, 248);
-    text-shadow: 0 1px 0 #fff;
-    opacity: 0.8;
-    filter: alpha(opacity=20);
-    margin-top:0px;
-    position: relative;
-    top: -6px;
+.modal-header .close {
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 1;
+  color: rgb(255, 248, 248);
+  text-shadow: 0 1px 0 #fff;
+  opacity: 0.8;
+  filter: alpha(opacity=20);
+  margin-top: 0px;
+  position: relative;
+  top: -6px;
 }
-
 
 /* Modal Body */
 
 .modal-body {
   padding: 2px 10px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
-
 
 /* Modal Footer */
 
@@ -88,8 +86,8 @@ clip-path: polygon(0 0, 100% 0, 100% 71%, 0% 100%);
   /* padding: 2px 16px; */
   background-color: #764ABC;
   color: white;
--webkit-clip-path: polygon(0 34%, 100% 0, 100% 100%, 0 100%);
-clip-path: polygon(0 34%, 100% 0, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 34%, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 34%, 100% 0, 100% 100%, 0 100%);
 }
 
 /* Add Animation */
@@ -111,43 +109,49 @@ clip-path: polygon(0 34%, 100% 0, 100% 100%, 0 100%);
   padding: 0px;
 }
 
-.projectInfo li{
+.projectInfo {
+  border-right: 1px solid rgba(117, 117, 117, 0.082);
+  padding-right: 10px;
+}
+
+.projectInfo h4 {
+  color: #336791;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.projectInfo li {
   color: #8b969c;
 }
 
-.projectInfo_footer{
+.projectInfo_footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-self: center;
-
 }
 
 .projectImages {
   justify-self: center;
   justify-content: center;
   text-align: center;
-   font-size: 10px;
+  font-size: 10px;
 }
 
 .projectImages img {
   max-height: 550px;
   max-width: 300px;
- 
 }
 
 .projectImages h4 {
-color: #336791;
-font-weight: bold;
+  color: #336791;
+  font-weight: bold;
 }
 
 .projectImages img:hover {
- filter: brightness(50%)
+  filter: brightness(50%)
 }
 
-
-
-@media screen and (max-width :768px){
-
+@media screen and (max-width :768px) {
   .modal-content {
     text-align: justify;
     background-color: #fefefe;
@@ -158,10 +162,16 @@ font-weight: bold;
     width: 95%;
     /* Could be more or less, depending on screen size */
   }
-
-
-.modal-body {
-  display: grid;
-  grid-template-columns: 1fr;
+  .modal-body {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
+
+#fh5co-footer {
+  background-color: white;
+}
+
+#fh5co-footer:before {
+  background-color: white;
 }
