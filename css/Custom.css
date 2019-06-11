@@ -1,4 +1,5 @@
 /* Custom Class */
+
 .mainTitle {
   text-align: center;
 }
@@ -6,11 +7,6 @@
 .ReduxIcon {
   width: 99.8px;
   height: 101px;
-}
-
-.projects_body{
-
- 
 }
 
 .proj {
@@ -21,12 +17,14 @@
   padding: 10px;
 }
 
-.proj:hover{
-  background-color: #0000000e;
-  opacity: .8;
-  transition: 1s;
+.proj img {
+  max-width: 140px;
 }
 
+.proj:hover {
+  filter: brightness(78%);
+  transition: 1s;
+}
 
 .project {
   margin: 10px;
@@ -39,13 +37,18 @@ h3 {
   color: white;
 }
 
-
 h5 {
   color: white;
 }
 
 li {
   color: white;
+}
+
+.projectInfo a {
+  text-decoration: none;
+  border-bottom: none;
+  text-align: left;
 }
 
 .midArrow {
@@ -92,14 +95,11 @@ li {
   text-align: center;
 }
 
-
-#projectSection{
+#projectSection {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
 }
-
-
 
 #project_title {
   /* margin-top: 2em; */
@@ -132,27 +132,104 @@ li {
   /* background-image: url(../images/hero6.jpg) */
 }
 
-.row{
+.fh5co-social-icons li i {
+  font-size: 30px;
+  /* border: none; */
+}
+
+.fh5co-social-icons li i:hover {
+  border: none;
+}
+
+.fh5co-social-icons li a {
+  height: 50px;
+  width: 50px;
+  border: 1px solid #00000067;
+  display: table;
+  text-align: center;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  margin: 0px 10px 10px 0px;
+  /* padding:10px; */
+}
+
+.fh5co-social-icons li a:hover {
+  border: none;
+}
+
+.linkedin_icon {
+  color: blue;
+}
+
+.twitter_icon {
+  color: rgb(134, 211, 255);
+}
+
+.github_icon {
+  color: black;
+}
+
+.linkedin_icon:hover {
+  background-color: #0077B5;
+  color: white;
+}
+
+.twitter_icon:hover {
+  background-color: #38A1F3;
+  color: white;
+}
+
+.github_icon:hover {
+  background-color: black;
+  color: white;
+}
+
+.row {
   margin: 0px;
 }
 
+.fh5co-footer-links li strong{
+  color: black;
+}
 /* End of Custom Class */
-
 
 @media screen and (max-width: 768px) {
   #projectSection {
     display: flex;
     flex-direction: column;
   }
-
   .projects_body::before {
-
-    height: 50%;
-
+    height: 60%;
   }
-
-  .midArrow{
+  .midArrow {
     left: 43%;
   }
+}
 
+@media screen and (max-width: 525px) {
+  .projects_body::before {
+    height: 43%;
+  }
+}
+
+.fh5co-hero-intro h4 {
+  vertical-align: middle;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 3px;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* -webkit-text-stroke: 0.05px; */
+  text-shadow: #fff 0px 1px 1px;
+  text-rendering: optimizeLegibility !important;
+  /* font-smooth: auto;
+  font-smooth: never;
+  font-smooth: always; */
+  font-smooth: 2em;
 }

@@ -7,6 +7,20 @@
 <!--<![endif]-->
 
 <head>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141808680-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-141808680-1');
+	</script>
+	
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Hi! I am Jacky&mdash;an ordinary Developer</title>
@@ -27,6 +41,8 @@
 	<meta name="twitter:card" content="" />
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
 	<link rel="shortcut icon" href="favicon.png">
 
 	<!-- Google Webfont -->
@@ -50,7 +66,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<!-- Model CSS -->
 	<link rel="stylesheet" href="css/model.css">
-		<!-- Custom CSS -->
+	<!-- Custom CSS -->
 	<link rel="stylesheet" href="css/Custom.css">
 
 	<!-- DevIcons -->
@@ -65,54 +81,195 @@
 </head>
 
 
-<model> 
+<model>
 
-	<div id = "modal_NS" class="modal" onclick=closeModal(event)>
+	<div id="modal_NS" class="modal" onclick=closeModal(event)>
 		<!-- Modal content -->
-		<div class="modal-content">
+		<div class="modal-content to-animate hero-animate-4">
 			<!-- <span class="close" onclick=closeModal(event)>&times;</span> -->
 			<!-- Modal content -->
 			<div class="modal-content">
-				<div class="modal-header">
-					<span class="close">&times;</span>
-					<h2>Next Step</h2>
+				<div class="modal-header"><span id="close" class="close" onclick=closeModal(event)>&times;</span>
+					<h1>Next Step</h1>
 				</div>
 				<div class="modal-body">
-					<p>Some text in the Modal Body</p>
-					<p>Some other text...</p>
+					<div class="projectInfo">
+						<a href="https://github.com/ajinsoopark/Next-Step" target="_blank">Github Source <i
+								class="devicon-github-plain colored"></i></a>
+						<br>
+						<a href="http://nextstep-pursuit.herokuapp.com/" target="_blank">Heroku Deployment <i
+								class="devicon-heroku-plain colored"></i></a>
+						<h4>Description:</h4>
+						<p>A six-week team oriented app built&nbsp;to help users prepare for their interview process. It
+							displays general interview questions, advice, and allow users to write interview answers and
+							have other feedback on their interview answers. Users can also comment on and rate other users
+							answers.</p>
+						<h4>Role:</h4>
+						<p>Work collaboratively with the team in all aspects of the app from idea to fruition. Advocate for
+							UI and UX uniqueness. Implemented User Authorization and Redux. Designed Logo and styled Home,
+							About, Dashboard, Login, and Sign-Up, All Questions, and All Answers pages.</p>
+						<h4>Project Hurdle:</h4>
+						<p>One of the challenges was understanding the roles, goals, and strengths &amp; weaknesses of each
+							of us in the team. We were asked not to specific roles for this project but instead work
+							harmoniously together to produce an app of our choice. There were uncertainties among the team
+							members.&nbsp;</p>
+						<h4>Solution:</h4>
+						<p>I learn to communicate effectively on what we passionately want, and also understand that other
+							team members are passionate for. Learning to be flexible to your teammates and be respectful of
+							everyone inputs helps me shares my skills and learn from others. Thanks to our communication and
+							flexibility we were able to pass our MVP at an early stage and went beyond our features planned.
+						</p>
+						<div class="projectInfo_footer">
+							<div>
+								<h4>Notable Things:</h4>
+								<ul>
+									<li>Home Page - Video</li>
+									<li>Login</li>
+									<li>Sign Up</li>
+									<li>Token / User Authentication</li>
+									<li>Rating System / Leader Board</li>
+									<li>Question Answering</li>
+									<li>Answer's Feedback</li>
+									<li>Favorites</li>
+								</ul>
+							</div>
+							<div>
+								<h4>Technology Used:</h4>
+								<ul>
+									<li>React</li>
+									<li>Redux</li>
+									<li>Material UI React Package</li>
+									<li>CSS</li>
+									<li>Axios</li>
+									<li>PostgreSQL</li>
+									<li>Heroku</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="projectImages">
+						<h4>Home Page</h4>
+						<a title="Next Step Home Page"
+							href="https://github.com/ajinsoopark/Next-Step/blob/master/photo/1.%20Home%20Page.png?raw=true"
+							target="_blank" rel="noopener"><img
+								src="https://github.com/ajinsoopark/Next-Step/raw/master/photo/1.%20Home%20Page.png?raw=true"
+								alt="Find Your Buddy Home Page Image" /> </a>
+						<h4>Dashboard Page</h4>
+						<a href="https://github.com/ajinsoopark/Next-Step/raw/master/photo/4.%20Dashboard.png?raw=true"
+							target="_blank" rel="noopener"> <img
+								src="https://github.com/ajinsoopark/Next-Step/raw/master/photo/4.%20Dashboard.png?raw=true"
+								alt="Next Step - Dashboard Page"" /> </a>
+						<h4>Cat Page</h4>
+						<a href=" https://github.com/ajinsoopark/Next-Step/raw/master/photo/6.%20Question.png?raw=true" target="_blank"
+								rel="noopener"> <img
+								src="https://github.com/ajinsoopark/Next-Step/raw/master/photo/6.%20Question.png?raw=true"
+								alt="Next Step - Answering Page"" /> </a>
+						<h4>Question Page</h4>
+						<a title=" Next - Step Questions Page"
+								href="https://github.com/ajinsoopark/Next-Step/raw/master/photo/5.%20Questions.png?raw=true"
+								target="_blank" rel="noopener noreferrer"> <img
+								src="https://github.com/ajinsoopark/Next-Step/raw/master/photo/5.%20Questions.png?raw=true"
+								alt="Next Step - Question Page" " /> </a>
+					</div>
 				</div>
-				<div class="modal-footer">
-					<h3>Modal Footer</h3>
+				<div class=" modal-footer">&nbsp;
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-
 
 		<div id="modal_FYB" class="modal" onclick=closeModal(event)>
 			<!-- Modal content -->
-			<div class="modal-content">
+			<div class="modal-content to-animate hero-animate-4">
 				<!-- <span class="close" onclick=closeModal(event)>&times;</span> -->
 				<!-- Modal content -->
 				<div class="modal-content">
 					<div class="modal-header">
-						<span class="close">&times;</span>
-						<h1> Find Your Buddy </h1>
+						<span class="close" id="close" onclick=closeModal(event)>&times;</span>
+						<h1>Find Your Buddy</h1>
 					</div>
 					<div class="modal-body">
-						<h4> Description: </h4>
-						<p>Some text...</p>
-						<h4> Role: </h4>
-						<p> Some text... </p>
-						<h4> Project Hurdles:</h4>
-						<p>Some text...</p>
-						<h4> Solutions: </h4>
-						<p>Some text...</p>
-						<div class= ""> 
-								<h4> Notable Features: </h4>
-								<p>Some text...</p>
-								<h4> Technology Used:</h4>
-								<p>Some text...</p>
+						<div class="projectInfo">
+							<a href="https://github.com/mateo-navarrete/find-your-buddy/wiki" target="_blank">Github Source <i
+									class="devicon-github-plain colored"></i></a>
+							<br>
+							<a>Not Deploy <i class="devicon-heroku-plain colored"></i></a>
+							<h4>Description:</h4>
+							<p>A hackathon front-end concept app built within 18-hours. The app utilizes RescueGroups.org API to pull
+								available animal
+								profiles for adoption. The passion and idea behind this project were to help organizations and users
+								shorten the
+								lengthy paperwork of adopting pets in shelters and to save an animal from being euthanized.
+							</p>
+							<h4>Role:</h4>
+							<p>Assisted the team with UI and UX design. Designed the Home Page, Cat and Dog Page, and Single Animal
+								Page.
+								Worked on API authorization and pet display profiles.</p>
+							<h4>Project Hurdle:</h4>
+							<p> One of the challenges for this project was correctly using the API key in the HTTP Authorization
+								header and
+								retrieving data from the API. Our expectation was that API keys are delivered through the standard URL
+								call.
+								However, we soon learned that this feature was removed from this API version. </p>
+							<h4>Solution:</h4>
+							<p>I guided the team to continued with this API and not abandon it for a fake-generate pet database
+								because of the
+								short time frame we had. I provided other users example based on HTTP Authorization calls and carefully
+								looked
+								through the API documentation. With this help, our team was able to get the authorization to work and
+								have the
+								API response to us.</p>
+							<div class="projectInfo_footer">
+								<div>
+									<h4> Notable Things: </h4>
+									<ul>
+										<li>Adorable Dog Photos</li>
+										<li>Cute Cat Photos</li>
+										<li>An adorable Cat video</li>
+										<li>Token Authorization</li>
+										<li>Use of Material UI Framework</li>
+									</ul>
+								</div>
+								<div>
+									<h4>Technology Used:</h4>
+									<ul>
+										<li>React</li>
+										<li>Redux</li>
+										<li>MaterialUI React Package</li>
+										<li>CSS</li>
+										<li>Axios</li>
+									</ul>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="projectImages">
+							<h4> Home Page </h4>
+							<a href="https://github.com/mateo-navarrete/find-your-buddy/raw/master/docs/photo/screencapture-localhost-3000-2019-06-01-16_05_45.png?raw=true"
+								target="_blank">
+								<img
+									src="https://github.com/mateo-navarrete/find-your-buddy/raw/master/docs/photo/screencapture-localhost-3000-2019-06-01-16_05_45.png?"
+									alt="Find Your Buddy Home Page Image"> </a>
+							<h4> Single Cat Page</h4>
+							<a href="https://github.com/mateo-navarrete/find-your-buddy/raw/master/docs/photo/screencapture-localhost-3000-cats-2019-06-01-16_06_09.png?raw=true"
+								target="_blank"> <img
+									src="https://github.com/mateo-navarrete/find-your-buddy/raw/master/docs/photo/screencapture-localhost-3000-animals-1000001-2019-06-01-16_07_45.png"
+									alt="Find Your Buddy Single Cat Page Image"> </a>
+							<h4> Cat Page </h4>
+							<a href="https://github.com/mateo-navarrete/find-your-buddy/raw/master/docs/photo/screencapture-localhost-3000-cats-2019-06-01-16_06_09.png"
+								target="_blank"> <img
+									src="https://github.com/mateo-navarrete/find-your-buddy/raw/master/docs/photo/screencapture-localhost-3000-cats-2019-06-01-16_06_09.png"
+									alt="Find Your Buddy Cat Page Image">
+							</a>
+							<h4> Dog Page </h4>
+							<a href="https://github.com/mateo-navarrete/find-your-buddy/blob/master/docs/photo/screencapture-localhost-3000-dogs-2019-06-01-16_06_28.png"
+								rel="noopener noreferrer" target="_blank">
+								<img
+									src="https://github.com/mateo-navarrete/find-your-buddy/raw/master/docs/photo/screencapture-localhost-3000-dogs-2019-06-01-16_06_28.png"
+									alt="Find Your Buddy Dog Page Image">
+							</a>
+
 						</div>
 
 					</div>
@@ -123,27 +280,96 @@
 			</div>
 		</div>
 
-
-			<div id="modal_QBG" class="modal" onclick=closeModal(event)>
+		<div id="modal_QBG" class="modal" onclick=closeModal(event)>
+			<!-- Modal content -->
+			<div class="modal-content to-animate hero-animate-4">
+				<!-- <span class="close" onclick=closeModal(event)>&times;</span> -->
 				<!-- Modal content -->
 				<div class="modal-content">
-					<!-- <span class="close" onclick=closeModal(event)>&times;</span> -->
-					<!-- Modal content -->
-					<div class="modal-content">
-						<div class="modal-header">
-							<span class="close">&times;</span>
-							<h2>Next Step</h2>
+					<div class="modal-header"><span id="close" class="close" onclick=closeModal(event)>&times;</span>
+						<h1>QBG Touchscreen Kiosk App</h1>
+					</div>
+					<div class="modal-body">
+						<div class="projectInfo">
+							<a>No Source Code Available <i class="devicon-github-plain colored"></i></a>
+							<br>
+							<a>Not Deploy <i class="devicon-heroku-plain colored"></i></a>
+							<h4>Description:</h4>
+							<p>An original ProjectSienna(Beta) App created to replace an aging legacy flash app that was mounted on
+								the walls of the Visitors Administration Building at the Queens Botanical Garden. It was later published
+								in the Windows 8.1 Store to be used widely. Small parts of the original app were later migrated to
+								PowerApps(Preview) and utilized to help internal staff with information processes such as incoming
+								guests and membership information. The app was an initiative begun by my desires to learn how to create
+								an application.&nbsp;&nbsp;</p>
+							<h4>Role:</h4>
+							<p>Developer - Designer</p>
+
+							<div class="projectInfo_footer">
+								<div>
+									<h4>Notable Things:</h4>
+									<ul>
+										<li>Scrolling Menu Navigation Bar</li>
+										<li>App Translation Selection</li>
+										<li>Colorful Photos</li>
+										<li>Used by Visitors and Teacher during visits and tours.&nbsp;</li>
+									</ul>
+								</div>
+								<div>
+									<h4>Technology Used:</h4>
+									<ul>
+										<li>ProjectSienna</li>
+										<li>PowerApps</li>
+										<li>HTML</li>
+										<li>Semi RESTFUL APIs&nbsp;</li>
+										<li>Bing Translator and Speech API</li>
+										<li>MS Excel</li>
+										<li>MS Flow</li>
+									</ul>
+								</div>
+							</div>
 						</div>
-						<div class="modal-body">
-							<p>Some text in the Modal Body</p>
-							<p>Some other text...</p>
-						</div>
-						<div class="modal-footer">
-							<h3>Modal Footer</h3>
+						<div class="projectImages">
+							<h4>Start Navigation Page</h4>
+							<a href="https://github.com/JJGITTY2018/QBGKIOSK/blob/master/Photo/Landing%20Page%20-%20v4.png?raw=true"
+								target="_blank" rel="noopener"> <img
+									src="https://github.com/JJGITTY2018/QBGKIOSK/blob/master/Photo/Landing%20Page%20-%20v4.png?raw=true"
+									alt="QBG Landing Screen" /> </a>
+							<h4>Green LEED Building Screen</h4>
+							<a href="https://github.com/JJGITTY2018/QBGKIOSK/blob/master/Photo/About%20Green%20LEED%20Building%20(4).png?raw=true"
+								target="_blank" rel="noopener"> <img
+									src="https://github.com/JJGITTY2018/QBGKIOSK/blob/master/Photo/About%20Green%20LEED%20Building%20(4).png?raw=true"
+									alt="Green LEED Building Information" /> </a>
+							<h4>Photo - Flickr API Page</h4>
+							<a href="https://github.com/JJGITTY2018/QBGKIOSK/blob/master/Photo/Garden%20Selection%20Screen.png?raw=true"
+								target="_blank" rel="noopener"> <img
+									src="https://github.com/JJGITTY2018/QBGKIOSK/blob/master/Photo/Flickr%20-%20Photo%20Gallery%20API%20Call.png?raw=true"
+									alt="Flickr Submitted Photo Gallery" /> </a>
+							<h4>Plant Information Page - Internal&nbsp;</h4>
+							<a href="https://github.com/JJGITTY2018/QBGKIOSK/blob/master/Photo/Internal%20What%20Plants%20is%20in%20Bloom.png?raw=true"
+								target="_blank" rel="noopener noreferrer"> <img
+									src="https://github.com/JJGITTY2018/QBGKIOSK/blob/master/Photo/Internal%20What%20Plants%20is%20in%20Bloom.png?raw=true"
+									alt="Internal Plant Selection Page Information" /> </a>
+							<h4>User Submitted Photos Screen</h4>
+							<a href="https://github.com/JJGITTY2018/QBGKIOSK/blob/master/Photo/Users%20Submitted%20Photos%20Screen.png?raw=true"
+								target="_blank" rel="noopener noreferrer"><img
+									src="https://github.com/JJGITTY2018/QBGKIOSK/blob/master/Photo/Users%20Submitted%20Photos%20Screen.png?raw=true"
+									alt="User Submitted Photos" /></a>
+							<h4>Visitor Guest App</h4>
+							<a href="https://github.com/JJGITTY2018/QBGKIOSK/blob/master/Photo/Visitor%20Log%20-%20PowerApps.png?raw=true"
+								target="_blank" rel="noopener noreferrer"><img
+									src="https://github.com/JJGITTY2018/QBGKIOSK/blob/master/Photo/Visitor%20Log%20-%20PowerApps.png?raw=true"
+									alt="Visitor Guest Sign In Log App" /></a>
+							<h4>Visitor Guest In Form</h4>
+							<a href="https://github.com/JJGITTY2018/QBGKIOSK/blob/master/Photo/Users%20Submitted%20Photos%20Screen.png?raw=true"
+								target="_blank" rel="noopener noreferrer"><img
+									src="https://github.com/JJGITTY2018/QBGKIOSK/blob/master/Photo/Visitors%20Sign%20in%20Form%20-%20PowerApps.png?raw=true"
+									alt="Visitor Log App Form" /></a>
 						</div>
 					</div>
+					<div class="modal-footer">&nbsp;</div>
 				</div>
 			</div>
+		</div>
 
 </model>
 
@@ -161,13 +387,14 @@
 
 				<ul class="sf-menu" id="fh5co-primary-menu">
 					<li class="active">
-						<a href="index.html">Home</a>
+						<a class="smoothscroll" href="index.html">Home</a>
 					</li>
 					<li><a class="smoothscroll" href="#fh5co-main">Skills</a></li>
 
-					<li><a href="#projectSection">Projects</a></li>
-					<li><a href="#AboutMe">Resume</a></li>
-					<li class="fh5co-special"><a href="">Hit Me Up</a></li>
+					<li><a class="smoothscroll" href=" #projectSection">Projects</a></li>
+					<li><a href="https://drive.google.com/file/d/1n07b4a_VyMDPA7I6_APA-6LFFz1aGq5-/view?usp=sharing"
+							target="_blank">Resume</a></li>
+					<li class="fh5co-special"><a class="smoothscroll" href="#AboutMe">Hit Me Up</a></li>
 				</ul>
 			</nav>
 			<!-- </div> -->
@@ -177,21 +404,21 @@
 
 	<!-- Header -->
 	<div id="fh5co-hero">
-		<a href="#fh5co-main" class="smoothscroll fh5co-arrow to-animate
+		<a href=".ReduxIcon" class="smoothscroll fh5co-arrow to-animate
 				hero-animate-4"><i class="ti-angle-down"></i></a>
 		<!-- End fh5co-arrow -->
 		<div class="container">
 			<div class="col-md-8 col-md-offset-2">
 				<div class="fh5co-hero-wrap">
 					<div class="fh5co-hero-intro">
-						<h1> Hi!</h1> 
-						<h2 class="to-animate hero-animate-1">My name is</h2>
+						<h1> Hi!</h1>
+						<h4 class="to-animate hero-animate-1">My name is</h4>
 						<h1 class="to-animate hero-animate-2">Jacky Ong</h1>
-						<h2 class="to-animate hero-animate-3">an ordinary <strong>Full Stack
-								Developer</strong></h2>
-						<h2 class="to-animate hero-animate-4">with the passion in <strong>
+						<h4 class="to-animate hero-animate-3">an ordinary <strong>Full Stack
+								Developer</strong></h4>
+						<h4 class="to-animate hero-animate-4">with the passion in <strong>
 								finding solutions</strong>,<br><strong>
-								AR & VR Tech</strong> <strong> & the newest gadgets.</strong></h2>
+								AR & VR Tech</strong> <strong> & the newest gadgets.</strong></h4>
 						<!-- <p class="to-animate hero-animate-3"><a href="#" class="btn btn-outline btn-lg">Get Started</a></p> -->
 					</div>
 				</div>
@@ -214,7 +441,7 @@
 					</div>
 					<h3 class="heading">JavaScript</h3>
 				</div>
-		
+
 
 				<!-- HTML -->
 				<div class="col-md-4 col-sm-6 text-center fh5co-feature feature-box">
@@ -223,7 +450,7 @@
 					</div>
 					<h3 class="heading">HTML</h3>
 				</div>
-			
+
 
 				<!-- CSS -->
 				<div class="col-md-4 col-sm-6 text-center fh5co-feature feature-box">
@@ -232,7 +459,7 @@
 					</div>
 					<h3 class="heading">CSS</h3>
 				</div>
-			
+
 
 				<!-- REACT -->
 				<div class="col-md-4 col-sm-6 text-center fh5co-feature feature-box">
@@ -245,7 +472,7 @@
 				<!-- REDUX -->
 				<div class="col-md-4 col-sm-6 text-center fh5co-feature feature-box">
 					<div class="fh5co-feature-icon">
-						<img class = "ReduxIcon" src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png">
+						<img class="ReduxIcon" src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png">
 					</div>
 					<h3 class="heading">Redux</h3>
 				</div>
@@ -257,60 +484,64 @@
 					</div>
 					<h3 class="heading">PostgreSQL</h3>
 				</div>
+
+
+
 			</div>
 		</div>
-			
-			
-			<!-- End of Skills -->
+
+
+		<!-- End of Skills -->
+		<!-- END row -->
+
+		<div class="fh5co-spacer fh5co-spacer-md"></div>
+		<!-- End Spacer -->
+
+		<div class="projects_body">
+			<div class="row" id="fh5co-works">
+				<div class=" text-center fh5co-section-heading
+									work-box">
+					<a href="#proj_QBG" class="midArrow smoothscroll fh5co-arrow
+										to-animate hero-animate-4"><i class="ti-angle-down"></i></a>
+
+					<div class="fh5co-spacer fh5co-spacer-sm"></div>
+					<h1 id="project_title">Projects</h1>
+					<div class="projects">
+						<div id="projectSection">
+							<div class="proj" id="proj_NS">
+								<h1> Next Step </h1>
+								<img src="https://github.com/ajinsoopark/Next-Step/raw/master/photo/1.%20Home%20Page.png?raw=true"
+									width="150">
+							</div>
+
+							<div class="proj" id="proj_FYB">
+								<h1> Find Your Buddy </h1>
+								<img
+									src="https://github.com/mateo-navarrete/find-your-buddy/raw/master/docs/photo/screencapture-localhost-3000-2019-06-01-16_05_45.png"
+									width="150" />
+							</div>
+
+							<div class="proj" id="proj_QBG">
+								<h1> QBG Kiosk App </h1>
+								<img
+									src="https://github.com/JJGITTY2018/QBGKIOSK/blob/master/Photo/Landing%20Page%20-%20v6.png?raw=true" />
+
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+
+
+			</div>
 			<!-- END row -->
 
 			<div class="fh5co-spacer fh5co-spacer-md"></div>
-			<!-- End Spacer -->
-
-			<div class="projects_body">
-							<div class="row" id="fh5co-works">
-							<div class=" text-center fh5co-section-heading
-									work-box">
-								<a href="#projectSection" class="midArrow smoothscroll fh5co-arrow
-										to-animate hero-animate-4"><i class="ti-angle-down"></i></a>
-
-								<div class="fh5co-spacer fh5co-spacer-sm"></div>
-								<h1 id="project_title">Projects</h1>
-								<div class="projects">
-									<div id= "projectSection">
-										<div class="proj" id="proj_NS">
-											<h1> Next Step </h1>
-											<img 
-											 src="https://github.com/ajinsoopark/Next-Step/raw/master/photo/1.%20Home%20Page.png?raw=true"
-												width="140" >
-										</div>
-
-										<div class="proj" id = "proj_FYB"> 
-											<h1> Find Your Buddy </h1>
-											<img
-												src="https://github.com/mateo-navarrete/find-your-buddy/raw/master/docs/photo/screencapture-localhost-3000-2019-06-01-16_05_45.png"
-												width="140" />
-										</div>
-
-										<div class="proj" id="proj_QBG">
-											<h1> QBG Kiosk App </h1>
-											<img src="https://github.com/ajinsoopark/Next-Step/raw/master/photo/1.%20Home%20Page.png?raw=true" width="140" />
-										</div>
-
-									</div>
-									
-								</div>
-							</div>
-
-
-				</div>
-				<!-- END row -->
-
-				<div class="fh5co-spacer fh5co-spacer-md"></div>
-				<div class="row">
-					<!-- Start Slider Testimonial -->
-					<!-- <h2 class="fh5co-uppercase-heading-sm text-center animate-box">Customer
-						Says...</h2>
+			<div class="row">
+				<!-- Start Slider Testimonial -->
+				<!-- <h4 class="fh5co-uppercase-heading-sm text-center animate-box">Customer
+						Says...</h4>
 					<div class="fh5co-spacer fh5co-spacer-xs"></div>
 					<div class="owl-carousel-fullwidth animate-box">
 						<div class="item">
@@ -336,14 +567,17 @@
 									Frank Chimero</cite></p>
 						</div>
 					</div> -->
-					<!-- End Slider Testimonial -->
-
-				</div>
-				<!-- END row -->
-				<div class="fh5co-spacer fh5co-spacer-md"></div>
+				<!-- End Slider Testimonial -->
 
 			</div>
-			<!-- END container -->
+
+			<!-- END row -->
+			<div class="fh5co-spacer fh5co-spacer-md">
+
+			</div>
+
+		</div>
+		<!-- END container -->
 
 
 	</div>
@@ -355,39 +589,43 @@
 		<div class="container" id="AboutMe">
 			<div class="row">
 				<div class="col-md-4 col-sm-6 footer-box">
-					<h3 class="fh5co-footer-heading">About us</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-						delectus dolorem fugit totam, commodi ad.
+					<h3 class="fh5co-footer-heading">About me</h3>
+					<p>
+						I am a native New Yorker. I consider myself a early career full-stack developer, since I join Pursuit in
+						2019. I am comfortable in developing with React for front-end and using Express - PostgreSQL for backends.
+						My technical expertise also includes Redux, ES6, HTML5 some node.JS.
 					</p>
-					<p><a href="#" class="btn btn-outline btn-sm">I'm a button</a></p>
-
+					<!-- <p><a href="#" class="btn btn-outline btn-sm">I'm a button</a></p> -->
 				</div>
 				<div class="col-md-4 col-sm-6 footer-box">
-					<h3 class="fh5co-footer-heading">Links</h3>
+					<h3 class="fh5co-footer-heading">Contact</h3>
 					<ul class="fh5co-footer-links">
-						<li><a href="#">Terms &amp; Conditions</a></li>
-						<li><a href="#">Our Careers</a></li>
-						<li><a href="#">Support &amp; FAQ's</a></li>
-						<li><a href="#">Sign up</a></li>
-						<li><a href="#">Log in</a></li>
+						<li> <strong>Email: </strong> <a href="mailto:jackyong@pursuit.org?Subject=Hello!" target="_blank">
+								jackyong@pursuit.org</a>
+						</li>
+									<li> <strong>Phone:</strong> <a href="tel:13478155101" target="_blank">
+											Ring Me Up</a>
+									</li>
 					</ul>
 				</div>
 				<div class="col-md-4 col-sm-12 footer-box">
 					<h3 class="fh5co-footer-heading">Get in touch</h3>
 					<ul class="fh5co-social-icons">
-
-						<li><a href="#"><i class="ti-google"></i></a></li>
-						<li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-						<li><a href="#"><i class="ti-facebook"></i></a></li>
-						<li><a href="#"><i class="ti-instagram"></i></a></li>
-						<li><a href="#"><i class="ti-dribbble"></i></a></li>
+						<li> <a class="github_icon" href="https://github.com/JJGITTY2018" target="_blank"><i class="ti-github"></i>
+							</a>
+						</li>
+						<li> <a class="linkedin_icon" href="https://www.linkedin.com/in/jacky-ong"><i class="ti-linkedin"
+									target="_blank"></i>
+							</a></li>
+						<li><a class="twitter_icon" href="https://twitter.com/J31824453"><i class="ti-twitter-alt"
+									target="_blank"></i></a></li>
 					</ul>
 				</div>
 				<div class="col-md-12 footer-box">
 					<div class="fh5co-copyright">
-						<p>&copy; 2015 Free Slant. All Rights Reserved. <br>Designed by <a href="http://freehtml5.co"
+						<!-- <p>&copy; 2015 Free Slant. All Rights Reserved. <br>Designed by <a href="http://freehtml5.co"
 								target="_blank">FREEHTML5.co</a> Images by: <a href="http://unsplash.com">Unsplash</a> and <a
-								href="http://plmd.me" target="_blank">plmd.me</a></p>
+								href="http://plmd.me" target="_blank">plmd.me</a></p> -->
 					</div>
 				</div>
 
@@ -398,31 +636,32 @@
 	</footer>
 
 
-		<!-- jQuery -->
-		<script src="js/jquery-1.10.2.min.js"></script>
-		<!-- jQuery Easing -->
-		<script src="js/jquery.easing.1.3.js"></script>
-		<!-- Bootstrap -->
-		<script src="js/bootstrap.js"></script>
-		<!-- Owl carousel -->
-		<script src="js/owl.carousel.min.js"></script>
-		<!-- Magnific Popup -->
-		<script src="js/jquery.magnific-popup.min.js"></script>
-		<!-- Superfish -->
-		<script src="js/hoverIntent.js"></script>
-		<script src="js/superfish.js"></script>
-		<!-- Easy Responsive Tabs -->
-		<script src="js/easyResponsiveTabs.js"></script>
-		<!-- FastClick for Mobile/Tablets -->
-		<script src="js/fastclick.js"></script>
-		<!-- Parallax -->
-		<script src="js/jquery.parallax-scroll.min.js"></script>
-		<!-- Waypoints -->
-		<script src="js/jquery.waypoints.min.js"></script>
-		<!-- Main JS -->
-		<script src="js/main.js"></script>
-		<!-- Model JS -->
-		<script src="js/model.js"></script>
+	<!-- jQuery -->
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.js"></script>
+	<!-- Owl carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<!-- Superfish -->
+	<script src="js/hoverIntent.js"></script>
+	<script src="js/superfish.js"></script>
+	<!-- Easy Responsive Tabs -->
+	<script src="js/easyResponsiveTabs.js"></script>
+	<!-- FastClick for Mobile/Tablets -->
+	<script src="js/fastclick.js"></script>
+	<!-- Parallax -->
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
+	<script src="./js/parallax.js-1.5.0/parallax.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Main JS -->
+	<script src="js/main.js"></script>
+	<!-- Model JS -->
+	<script src="js/model.js"></script>
 
 
 </body>

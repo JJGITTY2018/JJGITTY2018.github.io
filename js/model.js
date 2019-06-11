@@ -12,7 +12,6 @@ modal3.addEventListener("click", () => { openModal(modal3) });
 
 function openModal(modal) {
   // When the user clicks on the button, open the modal 
-console.log(modal)
   switch (modal.id) {
     case "proj_NS":
       let a = document.getElementById("modal_NS");
@@ -37,8 +36,19 @@ console.log(modal)
 function closeModal(event) {
 // When the user clicks anywhere outside of the modal, close it
   let modal = document.getElementById(event.target.id);
-  if (event.target == modal) {
+
+    if (event.target.id === "close") {
+    let modal = document.getElementById(event.path[4].id);
+
+    modal.style.display = "none"
+  }
+
+  else if (event.target == modal) {
     modal.style.display = "none";
   }
+
+
+
+  else return;
 
 }
