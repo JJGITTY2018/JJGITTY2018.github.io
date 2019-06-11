@@ -128,6 +128,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-self: center;
+  grid-gap: 10px;
 }
 
 .projectImages {
@@ -145,6 +146,9 @@
 .projectImages h4 {
   color: #336791;
   font-weight: bold;
+  font-size: 20px;
+  margin-top:15px;
+  margin-bottom: 5px;
 }
 
 .projectImages img:hover {
