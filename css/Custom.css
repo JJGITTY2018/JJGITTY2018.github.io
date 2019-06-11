@@ -246,7 +246,7 @@ justify-content: space-evenly;
 
 .projectIcons i {
  font-size: 35px;
- color: white;
+ color: rgba(245, 245, 245, 0.856);
  font-weight: 100;
 }
 
