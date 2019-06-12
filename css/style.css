@@ -821,7 +821,7 @@ textarea {
  background-size: cover;
  background-repeat: no-repeat;
  background-position: center center;
- background-image: url(../images/hero6.jpg);
+ /* background-image: url(../images/hero6.jpg); */
 }
 
 #fh5co-hero .fh5co-arrow {
