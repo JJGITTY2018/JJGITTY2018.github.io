@@ -252,13 +252,23 @@ li {
 
 @media screen and (max-width: 768px) {
   #projectSection {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
   }
   .projects_body::before {
     height: 48%;
   }
   .midArrow {
     left: 43%;
+  }
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+
+@media (width: 768px) {
+  .projects_body::before {
+    height: 64%;
   }
 }
