@@ -27,7 +27,6 @@
   /* width: 70%;
   max-width: 250px; */
   max-height: 180px;
-
 }
 
 .proj:hover {
@@ -136,8 +135,10 @@ li {
   /* height: 62.2%; */
   /* height: 62.2%; */
   height: 62%;
-  background: #d45b39;
-  z-index: -1;
+  /* background: #d45b39;
+   */
+  background: #ee7966;
+   z-index: -1;
   -webkit-transform: skewY(3deg);
   -moz-transform: skewY(3deg);
   -ms-transform: skewY(3deg);
