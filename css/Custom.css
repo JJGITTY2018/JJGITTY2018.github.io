@@ -53,7 +53,7 @@ li {
 
 .midArrow {
   position: relative;
-  left: 49%;
+  left: 48%;
   margin-left: 0px;
   display: flex;
   place-content: center;
@@ -113,6 +113,10 @@ li {
   color: white;
 }
 
+.projects_body {
+  height: 80%;
+}
+
 .projects_body::before {
   content: ' ';
   position: absolute;
@@ -120,7 +124,9 @@ li {
   overflow: visible;
   width: 100%;
   /* height: 700px; */
-  height: 62.2%;
+  /* height: 62.2%; */
+  /* height: 62.2%; */
+  height: 62%;
   background: #d45b39;
   z-index: -1;
   -webkit-transform: skewY(3deg);
@@ -128,7 +134,6 @@ li {
   -ms-transform: skewY(3deg);
   -o-transform: skewY(3deg);
   transform: skewY(3deg);
-  background-color: #f83d09;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -199,32 +204,6 @@ li {
 
 /* End of Custom Class */
 
-@media screen and (max-width: 768px) {
-  #projectSection {
-    display: flex;
-    flex-direction: column;
-  }
-  .projects_body::before {
-    height: 60%;
-  }
-  .midArrow {
-    left: 43%;
-  }
-}
-
-@media screen and (max-width: 991px) {
-  .projects_body::before {
-    height: 44%;
-  }
-
-}
-
-@media screen and (max-width: 525px) {
-  .projects_body::before {
-    height: 43.5%;
-  }
-}
-
 .fh5co-hero-intro h4 {
   vertical-align: middle;
   text-align: center;
@@ -263,4 +242,23 @@ li {
   max-height: 35px;
   position: relative;
   top: 0px;
+}
+
+@media screen and (max-width: 990px) {
+  .projects_body::before {
+    height: 54%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #projectSection {
+    display: flex;
+    flex-direction: column;
+  }
+  .projects_body::before {
+    height: 48%;
+  }
+  .midArrow {
+    left: 43%;
+  }
 }
