@@ -107,6 +107,9 @@
   color: white;
   margin: 0px;
   padding: 0px;
+  letter-spacing: 3px;
+  font-family: 'Rubik', sans-serif;
+  text-transform: uppercase;
 }
 
 .projectInfo {
@@ -147,7 +150,7 @@
   color: #336791;
   font-weight: bold;
   font-size: 20px;
-  margin-top:15px;
+  margin-top: 15px;
   margin-bottom: 5px;
 }
 

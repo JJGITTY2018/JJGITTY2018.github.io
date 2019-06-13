@@ -1,7 +1,23 @@
 /* Custom Class */
 
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* -webkit-text-stroke: 0.05px; */
+  /* text-shadow: #fff 0px 1px 1px; */
+  text-rendering: optimizeLegibility !important;
+  /* font-smooth: auto;
+  font-smooth: never;
+  font-smooth: always; */
+  font-smooth: 2em;
+  font-family: 'Rubik', sans-serif;
+}
+
 .mainTitle {
   text-align: center;
+  font-family: 'Rubik', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 .ReduxIcon {
@@ -89,6 +105,10 @@ li {
   box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
 }
 
+.midArrow:hover {
+  background-color: #F5CA3A;
+}
+
 .midCenter {
   display: flex;
   flex-direction: column;
@@ -105,6 +125,10 @@ li {
   text-align: center;
 }
 
+.heading {
+  font-family: 'Rubik', sans-serif;
+}
+
 #projectSection {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -114,9 +138,12 @@ li {
 #project_title {
   /* margin-top: 2em; */
   color: white;
+  font-family: 'Rubik', sans-serif;
+  text-transform: uppercase;
 }
 
 #projectSection h1 {
+  text-transform: uppercase;
   font-size: 20px;
   color: white;
 }
@@ -138,7 +165,7 @@ li {
   /* background: #d45b39;
    */
   background: #ee7966;
-   z-index: -1;
+  z-index: -1;
   -webkit-transform: skewY(3deg);
   -moz-transform: skewY(3deg);
   -ms-transform: skewY(3deg);
@@ -212,25 +239,16 @@ li {
   color: black;
 }
 
-/* End of Custom Class */
+
+.name {
+  font-family: 'Sriracha', cursive;
+}
 
 .fh5co-hero-intro h4 {
   vertical-align: middle;
   text-align: center;
   color: #ffffff;
   letter-spacing: 3px;
-}
-
-* {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  /* -webkit-text-stroke: 0.05px; */
-  text-shadow: #fff 0px 1px 1px;
-  text-rendering: optimizeLegibility !important;
-  /* font-smooth: auto;
-  font-smooth: never;
-  font-smooth: always; */
-  font-smooth: 2em;
 }
 
 .projectIcons {
@@ -246,6 +264,10 @@ li {
   font-weight: 100;
 }
 
+.fh5co-hero-intro h4 {
+  margin: 0 0 0 0;
+}
+
 .projectIcons img {
   margin: 0px;
   padding: 0px;
@@ -253,6 +275,18 @@ li {
   position: relative;
   top: 0px;
 }
+
+body {
+  /* font-family: "Lato", arial, sans-serif; */
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: normal;
+  color: #8b969c;
+}
+
+/* #fh5co-menu-wrap {
+  font-family: 'Caveat Brush', cursive;
+} */
 
 @media screen and (max-width: 990px) {
   .projects_body::before {
