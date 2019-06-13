@@ -27,14 +27,6 @@ html.fh5co-overflow #fh5co-header-section, html.fh5co-overflow #fh5co-main, html
   transition: all 0.3s ease;
 }
 
-body {
-  font-family: "Lato", arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: normal;
-  color: #8b969c;
-}
-
 /* @media screen and (max-width: 768px) {
  body {
   font-size: 16px;
@@ -250,8 +242,8 @@ input[type="text"], input[type="password"], input[type="email"], input[type="sea
 }
 
 .sf-menu a {
-  color: rgba(0, 0, 0, 0.8);
-  color: #438192;
+  /* color: rgba(0, 0, 0, 0.8); */
+  color: white;
   padding: .75em 1em;
   font-weight: normal;
   text-transform: uppercase;
@@ -276,7 +268,7 @@ input[type="text"], input[type="password"], input[type="email"], input[type="sea
 }
 
 .sf-menu li:hover a, .sf-menu li.sfHover a, .sf-menu ul li:hover a, .sf-menu ul li.sfHover a, .sf-menu li.active a {
-  color: #ffffff;
+  color: #000000;
   text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.08);
 }
 
@@ -334,6 +326,10 @@ input[type="text"], input[type="password"], input[type="email"], input[type="sea
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 6px;
+}
+
+.fh5co-special a:hover {
+  filter: brightness(90%)
 }
 
 #fh5co-menu-wrap {
@@ -792,6 +788,10 @@ input[type="text"], input[type="password"], input[type="email"], input[type="sea
   box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
 }
 
+#fh5co-hero .fh5co-arrow:hover {
+  background-color: blue;
+}
+
 .midArrow:hover {
   color: white;
 }
@@ -838,7 +838,7 @@ input[type="text"], input[type="password"], input[type="email"], input[type="sea
   border-bottom: 1px solid white;
 }
 
-#fh5co-hero .fh5co-hero-wrap .fh5co-hero-intro>h1 {
+#fh5co-hero .fh5co-hero-wrap .fh5co-hero-intro >h1  {
   font-size: 80px;
   font-stretch: expanded;
   letter-spacing: 5px;
@@ -1049,6 +1049,10 @@ body.fh5co-mobile-menu-visible #fh5co-mobile-menu {
   box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
 }
 
+#fh5co-footer .fh5co-arrow:hover {
+  background-color: #E54E27;
+}
+
 #fh5co-footer .fh5co-arrow i {
   display: table-cell;
   vertical-align: middle;
@@ -1065,8 +1069,8 @@ body.fh5co-mobile-menu-visible #fh5co-mobile-menu {
 
 #fh5co-footer .fh5co-footer-heading {
   font-size: 30px;
-  /* text-transform: uppercase; */
-  /* letter-spacing: 3px; */
+  text-transform: uppercase;
+  letter-spacing: 3px;
   color: rgb(0, 0, 0);
   margin-bottom: 10px;
 }
