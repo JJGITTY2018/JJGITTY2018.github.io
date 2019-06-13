@@ -376,7 +376,7 @@
 				console.log($(this.element).addClass('fadeInUp animated'));
 			}
 
-		} , { offset: '70%' } );
+		} , { offset: '90%' } );
 
 		$('.animate-box').waypoint( function( direction ) {
 
@@ -384,7 +384,7 @@
 				console.log($(this.element).addClass('fadeInUp animated'));
 			}
 
-		} , { offset: '70%' } );
+		} , { offset: '90%' } );
 
 	};
 

@@ -314,6 +314,6 @@ body {
 
 @media (width: 768px) {
   .projects_body::before {
-    height: 64%;
+    height: 66%;
   }
 }

@@ -718,7 +718,7 @@ input[type="text"], input[type="password"], input[type="email"], input[type="sea
 }
 
 #fh5co-hero {
-  background-color: #f8dd46;
+  /* background-color: #f8dd46; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center left;
