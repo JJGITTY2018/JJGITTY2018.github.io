@@ -1,22 +1,19 @@
+Jacky Ong - Full Stack Web Developer Portfolio
+Hello and welcome to my Portfolio!
 
 
+This portfolio was enhances from the Slant template provided by FREEHTML.co.
 
 
+////
+Credits Below: 
 
-
-
-
-TITLE: 
 Slant - Responsive Free HTML5 template
-
-AUTHOR:
 DESIGNED & DEVELOPED by FREEHTML5.co
 http://freehtml5.co/
 http://twitter.com/fh5co
 http://facebook.com/fh5co
 
-
-CREDITS:
 
 Bootstrap
 http://getbootstrap.com/
