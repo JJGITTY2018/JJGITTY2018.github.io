@@ -164,8 +164,8 @@ li {
   height: 62%;
   /* background: #d45b39;
    */
-  background: #ee7966;
-  z-index: -1;
+  background: rgb(219, 43, 84);
+   z-index: -1;
   -webkit-transform: skewY(3deg);
   -moz-transform: skewY(3deg);
   -ms-transform: skewY(3deg);
@@ -242,8 +242,6 @@ li {
 .name {
   font-family: 'Sriracha', cursive;
 }
-
-
 
 .fh5co-hero-intro h4 {
   vertical-align: middle;
