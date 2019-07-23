@@ -334,11 +334,15 @@ input[type="text"], input[type="password"], input[type="email"], input[type="sea
 
 #fh5co-menu-wrap {
   display: flex;
+  justify-content: center;
   place-content: center;
   /* float: right;
   position: relative;
   margin-right: -20px; */
 }
+
+
+
 
 #fh5co-menu-wrap .sf-menu a {
   padding: 2em;
